@@ -69,17 +69,10 @@ void process_start(data *d);
 void signit_hand(int signal);
 void _exect(data *d);
 
-/* path.c */
-char *_getenv(char *name);
-int _which(data *d);
-int _setenv(data *d, char *name, char *value);
 
 /* strl.c */
 unsigned int _strlen(char *str);
 int _strcmp(const char *s1, const char *s2);
-int _strncmp(const char *s1, const char *s2, int n);
-char *_strcpy(char *dest, const char *src);
-char *_strcat(char *dest, const char *src);
 
 
 /* strl2.c */
