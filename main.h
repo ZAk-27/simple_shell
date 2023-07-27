@@ -25,11 +25,11 @@ extern char **environ;
  */
 typedef struct data
 {
-        char **av;
-        char *cmd;
-        const char *shell_cr;
-        int last_status;
-        int flg_setenv;
+	char **av;
+	char *cmd;
+	const char *shell_cr;
+	int last_status;
+	int flg_setenv;
 } data;
 
 /**
@@ -39,8 +39,8 @@ typedef struct data
  */
 typedef struct bltn
 {
-        const char *cmd;
-        void (*f)(data *d);
+	const char *cmd;
+	void (*f)(data *d);
 } bltn;
 
 /* bltn.c */
